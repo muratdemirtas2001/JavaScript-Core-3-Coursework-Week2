@@ -10,5 +10,6 @@ addButton.addEventListener("click", () => {
     })
     .then(function (data) {
       dog.src = data.message;
-    });
+    })
+    .catch((error) => alert(error));
 });
