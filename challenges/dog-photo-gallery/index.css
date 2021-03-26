@@ -1,0 +1,20 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+}
+
+#add-button {
+  text-align: center;
+  /* width: 50px; */
+}
