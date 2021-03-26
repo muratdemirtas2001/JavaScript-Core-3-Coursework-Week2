@@ -12,7 +12,8 @@ function programmer(url) {
     .then((data) => {
       console.log(data);
       const imageElement = document.createElement("img");
-      document.body.appendChild(imageElement);
+      const root = document.getElementById("root");
+      root.appendChild(imageElement);
       imageElement.src = data.img;
     });
 }
